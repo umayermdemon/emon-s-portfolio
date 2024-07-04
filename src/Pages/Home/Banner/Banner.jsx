@@ -10,7 +10,7 @@ const Banner = () => {
           <h1 className="text-base md:text-2xl text-white font-bold font-poppins">
             Hi, I'm{" "}
           </h1>
-          <h1 className="text-3xl md:text-6xl text-white font-bold font-poppins">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl text-white font-bold font-poppins">
             Md. Emon Miah{" "}
           </h1>
           <h2 className="text-[#FFB641] text-sm md:text-base font-poppins">Junior Web Developer</h2>

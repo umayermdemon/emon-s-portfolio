@@ -16,11 +16,11 @@ const Skills = () => {
   return (
     <div className="my-12">
       <div className="flex justify-center ">
-        <h1 className=" text-3xl text-white gradient px-8 rounded-sm py-2 font-semibold">
+        <h1 className=" text-2xl lg:text-3xl text-white gradient px-8 rounded-sm py-2 font-semibold">
           Skills
         </h1>
       </div>
-      <div className="pt-8 max-w-7xl mx-auto">
+      <div className="pt-8 lg:max-w-7xl mx-2 lg:mx-auto">
         <Marquee>
           <div className="px-10 py-4 bg-[#1a1443] rounded-xl ml-4 flex flex-col items-center gap-4">
             <img src={html} className="w-16" />
