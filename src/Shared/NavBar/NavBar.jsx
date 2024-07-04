@@ -6,7 +6,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import React from "react";
-import logo from "../../assets/logo4.png";
+import logo from "../../assets/logo.png";
 
 function NavList() {
   return (
@@ -79,7 +79,7 @@ const NavBar = () => {
 
   return (
     <div>
-      <Navbar className="mx-auto  px-6 py-3 pt-8 bg-[#100D23] border-none shadow-none">
+      <Navbar className="mx-auto  px-6 py-3 pt-6 bg-[#06002C] border-none shadow-none">
         <div className="flex items-center text-lg font-semibold justify-between ">
           <img src={logo} alt="" className="w-16 rounded-full" />
           <div className="hidden lg:block">

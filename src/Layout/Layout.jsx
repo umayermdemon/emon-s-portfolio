@@ -5,9 +5,9 @@ import Footer from "../Shared/Footer/Footer";
 const Layout = () => {
   return (
     <div>
-      <div className="max-w-7xl mx-auto">
+      <div >
         <NavBar />
-        <div className="min-h-[calc(100vh-235px)]">
+        <div className="min-h-[calc(100vh-238px)]">
           <Outlet />
         </div>
       </div>
