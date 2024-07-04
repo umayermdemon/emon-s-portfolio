@@ -18,7 +18,7 @@ function NavList() {
       >
         <a
           href="#"
-          className="flex items-center text-lg font-semibold hover:text-[#FFB641] transition-colors"
+          className="flex items-center text-lg scroll font-semibold hover:text-[#FFB641] transition-colors"
         >
           Home
         </a>
@@ -29,7 +29,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
-          href="#"
+          href="#about"
           className="flex items-center text-lg font-semibold hover:text-[#FFB641] transition-colors"
         >
           About Me
