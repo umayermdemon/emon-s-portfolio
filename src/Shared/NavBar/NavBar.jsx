@@ -41,6 +41,18 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
+          href="#skills"
+          className="flex items-center text-lg font-semibold hover:text-[#FFB641] transition-colors"
+        >
+          Skills
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        color="white"
+        className="p-1 font-medium"
+      >
+        <a
           href="#"
           className="flex items-center text-lg font-semibold hover:text-[#FFB641] transition-colors"
         >

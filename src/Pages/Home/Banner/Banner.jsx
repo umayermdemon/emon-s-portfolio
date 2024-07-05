@@ -4,7 +4,7 @@ import profileImg from "../../../assets/file.png";
 
 const Banner = () => {
   return (
-    <div className="lg:mt-12 lg:max-w-7xl mx-auto">
+    <div className="lg:mt-12 lg:mb-16 lg:max-w-7xl mx-auto">
       <div className="flex items-center flex-col-reverse lg:justify-between lg:flex-row">
         <div className="flex-1 space-y-3 lg:space-y-4 px-4 md:px-0 ml-0 md:ml-8 lg:ml-0">
           <h1 className="text-base md:text-2xl text-white font-bold font-poppins">
@@ -13,7 +13,9 @@ const Banner = () => {
           <h1 className="text-3xl md:text-5xl lg:text-6xl text-white font-bold font-poppins">
             Md. Emon Miah{" "}
           </h1>
-          <h2 className="text-[#FFB641] text-sm md:text-base font-poppins">Junior Web Developer</h2>
+          <h2 className="text-[#FFB641] text-sm md:text-base font-poppins">
+            Junior Web Developer
+          </h2>
           <p className="font-poppins text-sm md:text-base text-white pb-4">
             Passionate about creating interactive and responsive web
             applications using modern technologies.
@@ -31,8 +33,9 @@ const Banner = () => {
         <div className="flex-1 lg:pl-72">
           <img
             src={profileImg}
-            className="max-w-xs lg:max-w-lg rounded-full bg-[#FFB641]"
+            className="max-w-xs relative lg:max-w-lg  zoom-effect cursor-pointer rounded-full bg-[#FFB641]"
           />
+          
         </div>
       </div>
     </div>

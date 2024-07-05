@@ -14,7 +14,7 @@ import mongodb from "../../../assets/Skills Logo/mongodb.png";
 
 const Skills = () => {
   return (
-    <div className="my-12">
+    <div className="my-12" id="skills">
       <div className="flex justify-center ">
         <h1 className=" text-2xl lg:text-3xl text-white gradient px-8 rounded-sm py-2 font-semibold">
           Skills
