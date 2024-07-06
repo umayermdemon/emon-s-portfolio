@@ -3,6 +3,7 @@ import NavBar from "../Shared/NavBar/NavBar";
 import Footer from "../Shared/Footer/Footer";
 import { FaArrowUp } from "react-icons/fa";
 import { useEffect, useState } from "react";
+import "animate.css";
 
 const Layout = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -33,18 +34,16 @@ const Layout = () => {
   }, []);
   return (
     <div>
-      <div>
-        <NavBar />
-        <div className="min-h-[calc(100vh-238px)]">
-          <Outlet />
-        </div>
+      <NavBar />
+      <div className="min-h-[calc(100vh-238px)]">
+        <Outlet />
       </div>
       <div>
         <button
           className={`scroll-to-top ${
             isVisible
-              ? "show  p-4 gradient rounded-2xl text-[#FFB641]"
-              : " p-4 gradient rounded-2xl text-[#FFB641]"
+              ? "show  p-4 gradient animate__heartBeat rounded-2xl text-[#FFB641]"
+              : ""
           }`}
           onClick={scrollToTop}
         >
