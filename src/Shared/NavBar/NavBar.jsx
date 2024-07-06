@@ -11,23 +11,7 @@ import logo from "../../assets/logo.png";
 function NavList() {
   return (
     <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      <Typography
-        as="li"
-        color="white"
-        className="p-1 font-medium"
-      >
-        <a
-          href="#"
-          className="flex items-center text-lg scroll font-semibold hover:text-[#FFB641] transition-colors"
-        >
-          Home
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        color="white"
-        className="p-1 font-medium"
-      >
+      <Typography as="li" color="white" className="p-1 font-medium">
         <a
           href="#about"
           className="flex items-center text-lg font-semibold hover:text-[#FFB641] transition-colors"
@@ -35,11 +19,7 @@ function NavList() {
           About Me
         </a>
       </Typography>
-      <Typography
-        as="li"
-        color="white"
-        className="p-1 font-medium"
-      >
+      <Typography as="li" color="white" className="p-1 font-medium">
         <a
           href="#skills"
           className="flex items-center text-lg font-semibold hover:text-[#FFB641] transition-colors"
@@ -47,11 +27,7 @@ function NavList() {
           Skills
         </a>
       </Typography>
-      <Typography
-        as="li"
-        color="white"
-        className="p-1 font-medium"
-      >
+      <Typography as="li" color="white" className="p-1 font-medium">
         <a
           href="#projects"
           className="flex items-center text-lg font-semibold hover:text-[#FFB641] transition-colors"
@@ -59,13 +35,17 @@ function NavList() {
           Projects
         </a>
       </Typography>
-      <Typography
-        as="li"
-        color="white"
-        className="p-1 font-medium"
-      >
+      <Typography as="li" color="white" className="p-1 font-medium">
         <a
-          href="#"
+          href="#education"
+          className="flex items-center text-lg font-semibold hover:text-[#FFB641] transition-colors"
+        >
+          Education
+        </a>
+      </Typography>
+      <Typography as="li" color="white" className="p-1 font-medium">
+        <a
+          href="#contact"
           className="flex items-center text-lg font-semibold hover:text-[#FFB641] transition-colors"
         >
           Contact

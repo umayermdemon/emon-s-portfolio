@@ -14,7 +14,7 @@ import versityImg from "../../../assets/EducationLogo/Bangladesh-National-Univer
 
 const Educations = () => {
   return (
-    <div className="max-w-7xl mx-auto my-12">
+    <div className="max-w-7xl mx-auto my-12" id="education">
       <div className="flex justify-center ">
         <h1 className=" text-2xl lg:text-3xl text-white gradient px-8 rounded-sm py-2 font-semibold">
           Educations
