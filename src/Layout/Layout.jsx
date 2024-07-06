@@ -3,7 +3,6 @@ import NavBar from "../Shared/NavBar/NavBar";
 import Footer from "../Shared/Footer/Footer";
 import { FaArrowUp } from "react-icons/fa";
 import { useEffect, useState } from "react";
-import "animate.css";
 
 const Layout = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -56,4 +55,3 @@ const Layout = () => {
 };
 
 export default Layout;
-// className="bg-[#bdb29f] p-4 gradient rounded-2xl text-[#FFB641]"

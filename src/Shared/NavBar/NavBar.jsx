@@ -53,10 +53,10 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a
-          href="#"
+          href="#projects"
           className="flex items-center text-lg font-semibold hover:text-[#FFB641] transition-colors"
         >
-          Blogs
+          Projects
         </a>
       </Typography>
       <Typography

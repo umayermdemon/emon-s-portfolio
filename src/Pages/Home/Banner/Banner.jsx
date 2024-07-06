@@ -24,7 +24,7 @@ const Banner = () => {
             href="https://drive.google.com/file/d/1j82cd6oxSLNHOdTSGrxzeZVlDDffs3Cz/view"
             target="_blank"
           >
-            <button className="hover:bg-[#FFB641] hover:text-gray-700 btn btn-outline font-bold text-[#FFB641]">
+            <button className="hover:bg-[#FFB641] animate__heartBeat hover:text-gray-700 btn btn-outline font-bold text-[#FFB641]">
               Get Resume
             </button>
           </a>
