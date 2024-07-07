@@ -17,7 +17,11 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3  max-w-7xl mx-2 lg:mx-auto py-12">
         {/* Card 1 */}
-        <Card className="bg-[#1a1443]" data-aos="fade-right" data-aos-duration="2000">
+        <Card
+          className="bg-[#1a1443]"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           <CardHeader shadow={false} floated={false}>
             <img
               src="https://i.ibb.co/hKt8bmm/Screenshot-2024-06-10-060945.png"
@@ -65,27 +69,23 @@ const Projects = () => {
             </div>
           </CardBody>
           <div className="flex gap-4 pb-2 lg:pb-0 lg:pt-4 items-center justify-center">
-            <Button className="gradient text-xs">
-              <Link to="https://swift-parcel-7b99a.web.app" target="_blank">
-                Live
-              </Link>
-            </Button>
-            <Button className="gradient text-xs">
-              <Link
-                to="https://github.com/umayermdemon/swift-parcel-client"
-                target="_blank"
-              >
-                Client
-              </Link>
-            </Button>
-            <Button className="gradient text-xs">
-              <Link
-                to="https://github.com/umayermdemon/swift-parcel-server"
-                target="_blank"
-              >
-                Server
-              </Link>
-            </Button>
+            <Link to="https://swift-parcel-7b99a.web.app" target="_blank">
+              <Button className="gradient text-xs">Live</Button>
+            </Link>
+
+            <Link
+              to="https://github.com/umayermdemon/swift-parcel-client"
+              target="_blank"
+            >
+              <Button className="gradient text-xs">Client</Button>
+            </Link>
+
+            <Link
+              to="https://github.com/umayermdemon/swift-parcel-server"
+              target="_blank"
+            >
+              <Button className="gradient text-xs"> Server</Button>
+            </Link>
           </div>
         </Card>
         {/* Card 2 */}
@@ -141,31 +141,31 @@ const Projects = () => {
             </div>
           </CardBody>
           <div className="flex gap-4 pb-2 md:pb-0 md:pt-4 lg:pt-10 justify-center">
-            <Button className="gradient text-xs">
-              <Link to="https://electro-care-fd46f.web.app" target="_blank">
-                Live
-              </Link>
-            </Button>
-            <Button className="gradient text-xs">
-              <Link
-                to="https://github.com/umayermdemon/electro-care-client"
-                target="_blank"
-              >
-                Client
-              </Link>
-            </Button>
-            <Button className="gradient text-xs">
-              <Link
-                to="https://github.com/umayermdemon/electro-care-server"
-                target="_blank"
-              >
-                Server
-              </Link>
-            </Button>
+            <Link to="https://electro-care-fd46f.web.app" target="_blank">
+              <Button className="gradient text-xs">Live</Button>
+            </Link>
+
+            <Link
+              to="https://github.com/umayermdemon/electro-care-client"
+              target="_blank"
+            >
+              <Button className="gradient text-xs">Client</Button>
+            </Link>
+
+            <Link
+              to="https://github.com/umayermdemon/electro-care-server"
+              target="_blank"
+            >
+              <Button className="gradient text-xs">Server</Button>
+            </Link>
           </div>
         </Card>
         {/* Card 3 */}
-        <Card className="bg-[#1a1443]" data-aos="fade-left" data-aos-duration="2000">
+        <Card
+          className="bg-[#1a1443]"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <CardHeader shadow={false} floated={false}>
             <img
               src="https://i.ibb.co/wzhFcYj/Screenshot-2024-04-30-195354.png"
@@ -214,27 +214,23 @@ const Projects = () => {
             </div>
           </CardBody>
           <div className="flex gap-4 pb-2 items-center justify-center">
-            <Button className="gradient text-xs">
-              <Link to="https://artistry-avenue-b9a0.web.app" target="_blank">
-                Live
-              </Link>
-            </Button>
-            <Button className="gradient text-xs">
-              <Link
-                to="https://github.com/umayermdemon/artistry-avenue-client"
-                target="_blank"
-              >
-                Client
-              </Link>
-            </Button>
-            <Button className="gradient text-xs">
-              <Link
-                to="https://github.com/umayermdemon/artistry-avenue-server"
-                target="_blank"
-              >
-                Server
-              </Link>
-            </Button>
+            <Link to="https://artistry-avenue-b9a0.web.app" target="_blank">
+              <Button className="gradient text-xs">Live</Button>
+            </Link>
+
+            <Link
+              to="https://github.com/umayermdemon/artistry-avenue-client"
+              target="_blank"
+            >
+              <Button className="gradient text-xs">Client</Button>
+            </Link>
+
+            <Link
+              to="https://github.com/umayermdemon/artistry-avenue-server"
+              target="_blank"
+            >
+              <Button className="gradient text-xs">Server</Button>
+            </Link>
           </div>
         </Card>
       </div>
