@@ -37,7 +37,7 @@ const Layout = () => {
       <div className="min-h-[calc(100vh-238px)]">
         <Outlet />
       </div>
-      <div>
+      <div className="hidden md:block">
         <button
           className={`scroll-to-top ${
             isVisible
