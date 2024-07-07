@@ -20,7 +20,7 @@ const Contact = () => {
       .then(
         () => {
           toast.success("Thanks for your feedback", {
-            position: "bottom-right",
+            position: "bottom-left",
             autoClose: 5000,
             hideProgressBar: false,
             closeOnClick: true,
@@ -45,9 +45,9 @@ const Contact = () => {
         </h1>
       </div>
 
-      <div className="flex flex-row-reverse gap-52 ">
+      <div className="flex flex-col justify-center items-center lg:flex-row-reverse lg:gap-52 ">
         <div className="flex-1">
-          <img src={contactLogo} className="w-72 pt-12" />
+          <img src={contactLogo} className="w-72 pt-3 lg:pt-12" />
           <div className="space-y-6 pt-8">
             <h3 className="flex flex-row gap-2 items-center text-xl text-white font-poppins">
               <MdOutlineAlternateEmail className="bg-gray-600 text-white p-1 text-xl rounded-full" />
@@ -119,11 +119,11 @@ const Contact = () => {
         </div>
 
         <div className="bg-[#1a1443] p-8 rounded-xl mt-12 flex-1">
-          <h2 className="text-4xl font-bold font-poppins">
+          <h2 className="text-2xl md:text-4xl font-bold font-poppins">
             Let’s work together!
           </h2>
           <div>
-            <form ref={form} onSubmit={sendEmail} className="w-[550px] ">
+            <form ref={form} onSubmit={sendEmail} className="w-[350px] md:w-[550px] ">
               <div className="flex flex-col gap-2 pt-8">
                 <label className="text-xl font-poppins font-semibold text-white">
                   Your Name
@@ -146,7 +146,7 @@ const Contact = () => {
                   className="bg-white rounded-xl h-10 text-black pl-4"
                 />
               </div>
-              <div className="flex flex-col gap-2 ">
+              <div className="flex flex-col gap-2 pt-4">
                 <label className="text-xl font-poppins font-semibold text-white">
                   Message
                 </label>
